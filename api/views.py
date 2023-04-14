@@ -4,7 +4,7 @@ from django.views.decorators.csrf import ensure_csrf_cookie
 import numbers
 from decimal import Decimal
 
-# Create your views here.
+
 def json_echo_view(request, *args, **kwargs):
     respon = {}
     if request.method == 'POST':
